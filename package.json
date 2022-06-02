@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "dts-bundle-generator -o dist/index.d.ts index.d.ts"
+    "build": "dts-bundle-generator --export-referenced-types false --external-inlines discord.js --inline-declare-externals -o dist/index.d.ts index.d.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "discord.js": "13.7.0"
+  },
   "devDependencies": {
     "@tsconfig/node16": "1.0.2",
-    "dts-bundle-generator": "6.7.0",
+    "dts-bundle-generator": "6.10.0",
     "typescript": "4.6.3"
   }
 }

@@ -1,3 +1,6 @@
 {
-    "extends": "@tsconfig/node16"
+    "extends": "@tsconfig/node16",
+    "compilerOptions": {
+        "skipLibCheck": false
+    }
 }

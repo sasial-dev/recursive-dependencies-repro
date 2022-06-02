@@ -1,4 +1,0 @@
-[submodule "discord.js"]
-	path = discord.js
-	url = https://github.com/sasial-dev/discord.js
-	branch = typings/v13/ModalSubmitInteraction
